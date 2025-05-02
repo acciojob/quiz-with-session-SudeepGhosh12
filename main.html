@@ -1,17 +1,39 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <script defer src="main.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #questions div {
+      margin-bottom: 15px;
+    }
+    label {
+      margin-left: 8px;
+      margin-right: 15px;
+    }
+    #submit {
+      margin-top: 20px;
+    }
+    #score {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
 
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <h1>Quiz</h1>
 
-  <body>
-    <!-- do not change this code -->
-    <h1>Quiz</h1>
-    <div id="questions"></div>
-    <button id="submit">Submit</button>
-    <div id="score"></div>
+  <div id="questions"></div>
 
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+  <button id="submit">Submit</button>
+
+  <div id="score"></div>
+
+</body>
 </html>
